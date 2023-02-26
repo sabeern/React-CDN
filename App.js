@@ -4,8 +4,10 @@ const heading = React.createElement(
   "Hello React"
 );
 const heading2 = React.createElement("h2", {}, "Second heading");
+const paragraph = React.createElement("p", null, "Sample paragraph");
 const container = React.createElement("div", { className: "container" }, [
   heading,
+  paragraph,
   heading2,
 ]);
 
